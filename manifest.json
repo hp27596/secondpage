@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "SecondPage - Google Searches without media conglomerates",
+  "version": "1.1",
+  "description": "SecondPage - Google Searches without media conglomerates",
+  "icons": {
+    "32": "poo32.png",
+    "128": "poo128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.google.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["blocked_domains.txt"],
+      "matches": ["*://*.google.com/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Domain Blocker</title>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+    }
+    .switch-container {
+      display: flex;
+      align-items: center;
+    }
+    .switch-label {
+      margin: 0 10px;
+    }
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 34px;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    input:checked + .slider:before {
+      transform: translateX(26px);
+    }
+  </style>
+</head>
+<body>
+  <h1>SecondPage</h1>
+  <p>The internet is better off without media conglomerates littered all over Google searches</p>
+  <div class="switch-container">
+    <span class="switch-label">Off</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleSwitch">
+      <span class="slider"></span>
+    </label>
+    <span class="switch-label">On</span>
+  </div>
+  <p><a href="#" id="coffeeLinkClick">Buy me a coffee as a thank you</a></p>
+  <p><a href="#" id="newsletterLinkClick">Check out my newsletter for solo founders</a></p>
+  <script src="popup.js"></script>
+</body>
+</html>
