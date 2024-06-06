@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     chrome.storage.sync.set({ isEnabled }, () => {
       chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         if (tabs[0]) {
-          chrome.tabs.reload(tabs[0].id);
+          chrome.tabs.sendMessage(tabs[0].id, { action: "toggleBlocking", isEnabled });
         }
       });
     });
@@ -22,11 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Open the coffee link in a new tab
   coffeeLink.addEventListener("click", () => {
-    chrome.tabs.create({ url: "https://www.buymeacoffee.com/peternguyen" });
+    window.open("https://www.buymeacoffee.com/peternguyen", "_blank");
   });
 
   // Open the newsletter link in a new tab
   newsletterLink.addEventListener("click", () => {
-    chrome.tabs.create({ url: "https://thesolofoundernewsletter.com/subscribe?utm_source=secondpage" });
+    window.open("https://thesolofoundernewsletter.com/subscribe?utm_source=secondpage", "_blank");
   });
 });

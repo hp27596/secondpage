@@ -30,15 +30,36 @@ function hideSearchResults(blockedDomains) {
   });
 }
 
-chrome.storage.sync.get("isEnabled", (data) => {
-  if (data.isEnabled !== false) {
-    fetchBlockedDomains().then((blockedDomains) => {
-      hideSearchResults(blockedDomains);
+function showSearchResults() {
+  const searchResults = document.querySelectorAll(".g");
+  searchResults.forEach((result) => {
+    result.style.display = "block";
+  });
+}
 
-      const observer = new MutationObserver(() => {
+function initializeBlocking() {
+  chrome.storage.sync.get("isEnabled", (data) => {
+    if (data.isEnabled !== false) {
+      fetchBlockedDomains().then((blockedDomains) => {
         hideSearchResults(blockedDomains);
+
+        const observer = new MutationObserver(() => {
+          hideSearchResults(blockedDomains);
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
       });
-      observer.observe(document.body, { childList: true, subtree: true });
-    });
+    }
+  });
+}
+
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.action === "toggleBlocking") {
+    if (message.isEnabled) {
+      initializeBlocking();
+    } else {
+      showSearchResults();
+    }
   }
 });
+
+initializeBlocking();
