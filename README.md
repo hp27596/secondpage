@@ -1,6 +1,6 @@
 ## SecondPage - Google Searches without media conglomerates
 
-![Project Demo](./202405310826.mp4)
+![Project Demo](./2024-06-04_07-47.png)
 
 This extension blocks most of the top 1000 English sites getting Google's organic traffic. 
 
