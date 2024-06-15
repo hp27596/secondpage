@@ -10,11 +10,12 @@ The problem, as discovered in a very recent [Google algo leak](https://sparktoro
 
 [This article](https://detailed.com/google-control/) details how 16 media companies with almost 600 sites are dominating the world's Google Search results. It gives me a very funny idea, which is, if I can't stop them from dominating top search results, I can just block them out of my sight. 
 
-I did a full write up on [my website here](https://thesolofoundernewsletter.com/p/secondpage?utm_source=referral&utm_medium=github_secondpage) if you're interested at reading more.
-
 Usage: 
 - [Install link is here](https://chromewebstore.google.com/detail/secondpage-google-searche/koaojhnbfmmjnagblonbfilccbagjpgm). The extension is enabled by default, but wait for it, there's a button to disable it if you want!
 - If you'd prefer to modify the list of blocked domains, clone this repository, edit the txt file, and then go to `chrome://extensions/` -> Load unpacked -> Choose the repo's folder
+
+
+There's also a write up on [my website here](https://thesolofoundernewsletter.com/p/secondpage?utm_source=referral&utm_medium=github_secondpage) if you're interested.
 
 I'm a developer-adjacent guy (Read: I know a bit of code and use AI tools to help me make small funny things), so this right here is probably all it is. There's not gonna be updates or anything. 
 
