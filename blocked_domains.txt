@@ -1,10 +1,8 @@
-walmart.com
 fandom.com
 yahoo.com
 tripadvisor.com
 mapquest.com
 apple.com
-medium.com
 indeed.com
 nytimes.com
 yellowpages.com
@@ -31,7 +29,6 @@ study.com
 screenrant.com
 nextdoor.com
 ziprecruiter.com
-shutterstock.com
 clevelandclinic.org
 mayoclinic.org
 justanswer.com
@@ -72,7 +69,6 @@ investopedia.com
 barnesandnoble.com
 quizlet.com
 scribd.com
-istockphoto.com
 collinsdictionary.com
 wikiwand.com
 time.com
@@ -203,10 +199,6 @@ theknot.com
 consumerreports.org
 bandcamp.com
 kohls.com
-freepik.com
-vocabulary.com
-coursehero.com
-encyclopedia.com
 bhg.com
 seamless.com
 msn.com
@@ -226,11 +218,9 @@ iheart.com
 menshealth.com
 europa.eu
 travelweekly.com
-walgreens.com
 bab.la
 rent.com
 thepioneerwoman.com
-khanacademy.org
 singleplatform.com
 rd.com
 movieweb.com
@@ -247,14 +237,13 @@ samsclub.com
 opencorporates.com
 answers.com
 postmates.com
-shazam.com
-slideshare.net
 metacritic.com
 thekitchn.com
 deadline.com
 frontiersin.org
 rateyourmusic.com
 cbc.ca
+istockphoto.com
 themoviedb.org
 mashable.com
 foxsports.com
@@ -420,7 +409,6 @@ pennmedicine.org
 harpersbazaar.com
 vice.com
 indianexpress.com
-vectorstock.com
 pressbooks.pub
 npidb.org
 bobvila.com
@@ -729,7 +717,6 @@ barrons.com
 pissedconsumer.com
 javatpoint.com
 ford.com
-pexels.com
 americansongwriter.com
 mindbodygreen.com
 boredpanda.com

@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SecondPage - Google Searches without media conglomerates",
-  "version": "1.5",
+  "version": "1.7",
   "description": "SecondPage - Google Searches without media conglomerates",
   "icons": {
     "32": "poo32.png",
