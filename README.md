@@ -15,7 +15,7 @@ Usage:
 - If you'd prefer to modify the list of blocked domains, clone this repository, edit the txt file, and then go to `chrome://extensions/` -> Load unpacked -> Choose the repo's folder
 
 
-There's also a write up on [my website here](https://thesolofoundernewsletter.com/p/secondpage?utm_source=referral&utm_medium=github_secondpage) if you're interested.
+There's also a full write up with more quotes on [my website here](https://thesolofoundernewsletter.com/p/secondpage?utm_source=referral&utm_medium=github_secondpage) if you're interested.
 
 I'm a developer-adjacent guy (Read: I know a bit of code and use AI tools to help me make small funny things), so this right here is probably all it is. There's not gonna be updates or anything. 
 
